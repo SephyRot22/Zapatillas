@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zapatillas Bailarinas</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <style>
+        .bg-pink{
+            background-color: #E685B5;
+        }
+
+        section{
+            min-height: 100vh;
+            padding-top: 80px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-pink fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+        <img src="./img/logonobg.png" alt="Logo Zapatillas" style="width: 55px;" />
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Eventos</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Horario</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Cursos
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Ballet</a></li>
+            <li><a class="dropdown-item" href="#">Danza Tradicional</a></li>
+            <li><a class="dropdown-item" href="#">Danza Urbana</a></li>
+          </ul>
+        </li>
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+<main class="container-fluid">
+    
+    <section data-section="inicio">
+        <h1 class="text-center">Zaptillas Bailarinas</h1>
+    </section>
+
+    <section data-section="eventos">
+        <h2 class="text-center">Nuestros Eventos</h2>
+    </section>
+
+    <section data-section="horario">
+        <h2 class="text-center">Horario</h2>
+    </section>
+
+
+    <section data-section="cursos">
+        <h2 class="text-center">Nuestros Cursos</h2>
+    </section>
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
